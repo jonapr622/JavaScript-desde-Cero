@@ -45,6 +45,14 @@ specialContainer.innerHTML = `
 
 function handleClick () {
     console.log("Esta tocandome");   
+    let imageConteiner = document.querySelector(".container img");
+    console.log(imageConteiner);
+    imageConteiner.style.display = none;
+    if (imageConteiner.style.display === "block") {
+        
+    } else {
+        
+    }
 }
 
 imageBtn.addEventListener("click", () => handleClick());
