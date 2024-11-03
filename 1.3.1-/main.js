@@ -1,4 +1,4 @@
-const Calificacion = 9;
+const Calificacion = 78;
 
 let Nota = null;
 
