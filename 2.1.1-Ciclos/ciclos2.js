@@ -1,7 +1,5 @@
-let contraseñaCorrrecta = "JaaJ12"
-let contraseña = prompt("Dime la contraseña");
+let numero = parseInt(prompt("¿Cuantas estrellas quieres?"))
 
-while (usuario !== contraseña){
-    console.log("contraseña incorrecta");
-    contraseña = prompt("Intenta de nuevo")
+for (let i = 1; i <= numero; i++) {
+    console.log("*".repeat(i));
 }

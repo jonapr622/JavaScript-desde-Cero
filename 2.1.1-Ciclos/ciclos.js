@@ -47,8 +47,6 @@ do{
 
 console.log(numeroAleatorio2);
 
-let numeroAleatorio3 = 
-
 
 
 
